@@ -1,6 +1,6 @@
 ![](Leetcode_Day1.png)
-
-# And here is my code:
+---
+## And here is my code:
 
 ```python
 def singleNumber(nums):
@@ -13,3 +13,4 @@ b = [int(x) for x in input().split()]
 print(singleNumber(b))
 
 ```
+---
