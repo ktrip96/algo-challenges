@@ -1,0 +1,1 @@
+![](Day_1/Leetcode_Day1.png)
