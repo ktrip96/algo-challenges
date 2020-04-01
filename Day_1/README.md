@@ -2,13 +2,14 @@
 
 # And here is my code:
 
-```javascript
-// code away!
+```python
+def singleNumber(nums):
+    a = 0
+    for i in nums:
+        a ^= i
+    return a
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+b = [int(x) for x in input().split()]
+print(singleNumber(b))
+
 ```
