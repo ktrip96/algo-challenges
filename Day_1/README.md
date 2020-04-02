@@ -1,6 +1,6 @@
 ![](/images/Leetcode_Day1.png)
 ---
-## And here is the code:
+### And here is the code:
 
 ```python
 def singleNumber(nums):
@@ -22,4 +22,4 @@ a XOR 0 --> a
 a XOR a --> 0
 - a XOR b XOR a = (a XOR a) XOR b = 0 XOR b = b
 
-### Complexity: 0(N)
+### Complexity: O(N)
