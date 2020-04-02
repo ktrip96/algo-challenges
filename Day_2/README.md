@@ -31,3 +31,5 @@ int main(){
 ```
 ---
 
+## Complexity Θ(logn)
+
