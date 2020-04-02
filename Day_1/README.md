@@ -1,4 +1,4 @@
-![](Leetcode_Day1.png)
+![](images/Leetcode_Day1.png)
 ---
 ## And here is the code:
 
