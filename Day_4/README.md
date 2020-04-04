@@ -24,8 +24,7 @@ def move_zeros(nums):
 ---
 ### Time Complexity O(N) - Linear Time
 ### explanation 
--- 
-We have 2 pointers, i and j.
+- We have 2 pointers, i and j.
 The pointer i finds the zeros of the array.
 When it finds a zero, then the j pointer is trying to find a number after that zero.
 They are being swapped , and the algorithm stops when the 'j'  or the 'i' iterates the whole array
