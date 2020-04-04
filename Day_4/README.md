@@ -1,33 +1,25 @@
-![](images/Leetcode_Day2.png)
+![](/images/Leetcode_Day4.png)
 ---
-## And here is the code:
+### And here is the code:
 
-```C++
-int A[1000], res;
-int sum_square(long long int k){
-    if (k/10 == 0) return pow(k,2);
-    else{
-    return(pow(k%10,2)+ sum_square(k/10));
-    }
-}
-
-bool isHappy(long int n) {
-        res = sum_square(n);
-        if (res == 100 || res == 1000 || res == 10 || res == 1) return true;
-        else if(A[res]==res) return false;
-        else{
-        A[res] = res;
-        return isHappy(res);
-        }
-    }
-
-int main(){
-    long long int i;
-    cin >> i;
-    if(isHappy(i)) cout << "Happy Number"<<endl;
-    else cout << "Non Happy Number"<<endl;
-}
+```python
+def move_zeros(nums):
+    j = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            while(nums[j]==0 or j < i):
+                j += 1
+                if j == len(nums):  
+                    i = -1
+                    break
+            if i == -1:
+                break
+            if (j > i):
+                temp = nums[i]
+                nums[i] = nums[j]
+                nums[j] = temp
+    return nums
 
 ```
 ---
-
+### Time Complexity O(N) - Linear Time
