@@ -14,7 +14,6 @@ print(singleNumber(b))
 
 ```
 ---
-
 The operator **^= is XOR**
 - If we take XOR of zero and some bit, it will return that bit
 a XOR 0 --> a
