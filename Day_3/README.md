@@ -48,4 +48,4 @@ int main(){
 
 ```
 ---
-## Time Complexity: O[N] --> Linear Time
+## Time Complexity: O[N] - Linear Time
