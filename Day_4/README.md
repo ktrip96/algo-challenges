@@ -28,3 +28,4 @@ def move_zeros(nums):
 The pointer i finds the zeros of the array.
 When it finds a zero, then the j pointer is trying to find a number after that zero.
 They are being swapped , and the algorithm stops when the 'j'  or the 'i' iterates the whole array
+---
