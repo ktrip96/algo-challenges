@@ -31,4 +31,4 @@ int main(){
 
 ```
 ---
-### Time Complexity O(N*MlogM) 
+### Time Complexity O(N*MlogM) - Where M is the length of each string
