@@ -26,7 +26,6 @@ int main(){
     for (auto a: m) {
         V2.push_back(a.second);
     }
-
 }
 
 ```
