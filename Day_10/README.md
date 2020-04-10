@@ -25,4 +25,4 @@ public:
 };
 ```
 ---
-### Time Complexity O(N)
+### Time Complexity O(1)
