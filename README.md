@@ -6,5 +6,5 @@ Each of those directories contain:
 - An image file with the exercise
 
 Languages used:
+- Mainly C++ as its a lot faster
 - Python
-- C++
