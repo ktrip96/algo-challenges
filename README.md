@@ -1,5 +1,6 @@
 ## Leetcode Problems
-![](/images/Leetcode_Pic.png)
+![](/images/LeetCode_Pic.png)
+
 
 This github directory consists of 30 mini-directories.(Day_1, Day_2 etc.)
 
