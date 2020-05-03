@@ -1,4 +1,6 @@
-## Leetcode_30DaysCodeChallenge
+## Leetcode_Algorithmic_Problems
+![](/images/Leetcode_Day1.png)
+
 This github directory consists of 30 mini-directories.(Day_1, Day_2 etc.)
 
 Each of those directories contain:
