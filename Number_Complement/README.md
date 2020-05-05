@@ -1,4 +1,4 @@
-![](/images/Leetcode_Number_Component.png)
+![](/images/Leetcode_Number_Complement.png)
 ---
 ### And here is the code:
 
