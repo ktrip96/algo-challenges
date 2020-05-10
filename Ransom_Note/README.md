@@ -25,7 +25,6 @@ int main(int argc, char * argv[]){
     cout<<result<<endl;
     return 0;
 }
-
 ```
 ---
 ### Time Complexity O(2*S1 + S2) = O(N)
