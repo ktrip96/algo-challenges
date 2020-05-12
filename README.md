@@ -9,4 +9,4 @@ Each of those directories contain:
 
 Languages used:
 - Mainly C++
-- Python
+
