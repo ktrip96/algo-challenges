@@ -32,5 +32,5 @@ public:
 };
 ```
 ---
-### Time Complexity O(M*N), where M*N the size of the image
+### Time Complexity O(MxN), where MxN the size of the image
 >Linear Time
