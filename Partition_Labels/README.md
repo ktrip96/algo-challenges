@@ -1,4 +1,4 @@
-![](/images/Leetcode_Partition_Label.png)
+![](/images/Leetcode_Partition_Labels.png)
 ---
 ### And here is the code:
 
