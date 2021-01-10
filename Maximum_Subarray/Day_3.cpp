@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int main(){
-    // To stop inserting values just press a non integer value 
+int main(int argc, char * argv[]){
     vector<int> V;
     int input,max = -100, max2 = -100, count = 0, index, index2;
-    while(cin>>input){
-        V.push_back(input);
+    for(int i = 1; i < argc; i++){
+        V.push_back(atoi(argv[i]));
     }
     for (int i=0; i<V.size(); i++){
         count += V[i];
@@ -37,6 +36,6 @@ int main(){
         if (V[i]>count) count = V[i];
     }
     if (max2 <= max)
-    cout << max;
-    else cout << max2;
+    cout << max<<endl;
+    else cout << max2<<endl;
 }
