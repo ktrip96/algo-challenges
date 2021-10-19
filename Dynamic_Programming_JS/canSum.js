@@ -1,20 +1,7 @@
-// ** canSum Memoization **
+/** canSum memoization **/
 
-const canSum = (targetSum, array, memo = {}) => {
-    if (targetSum === 0) return true
-    if (targetSum < 0) return false
-    if (targetSum in memo) return memo[targetSum]
-    
-    for(let n of array){
-        let remainder = targetSum - n
-        if(canSum(remainder, array, memo) === true){
-            memo[targetSum] = true
-            return true
-        }
-    }
+const canSum = () => {
 
-    memo[targetSum] = false
-    return false
 }
 
 console.log(canSum(7, [2,3]))
