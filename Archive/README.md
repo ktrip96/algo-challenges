@@ -1,5 +1,5 @@
 ## Leetcode Problems
-![](/images/LeetCode_Pic.png)
+![](/Archive/images/LeetCode_Pic.png)
 
 
 
