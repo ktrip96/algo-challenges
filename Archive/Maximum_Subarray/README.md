@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day3.png)
----
+## ![](/Archive/images/Leetcode_Day3.png)
+
 ## And here is the code:
 
 ```C++
@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 int main(){
-    // To stop inserting values just press a non integer value 
+    // To stop inserting values just press a non integer value
     vector<int> V;
     int input,max = -100, max2 = -100, count = 0, index, index2;
     while(cin>>input){
@@ -47,5 +47,7 @@ int main(){
 }
 
 ```
+
 ---
+
 ## Time Complexity: O[N] - Linear Time

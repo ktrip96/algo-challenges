@@ -1,5 +1,5 @@
-![](/images/Leetcode_Find.png)
----
+## ![](/Archive/images/Leetcode_Find.png)
+
 ### And here is the code:
 
 ```c++
@@ -19,10 +19,13 @@ public:
                 break;
             }
         }
-        return judge;   
+        return judge;
     }
 };
 ```
+
 ---
-### Time Complexity O(2*trust.size()) = O(N)
+
+### Time Complexity O(2\*trust.size()) = O(N)
+
 > Linear Time

@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day12.png)
----
+## ![](/Archive/images/Leetcode_Day12.png)
+
 ### And here is the code:
 
 ```c++
@@ -29,5 +29,7 @@ class Solution {
         }
 };
 ```
+
 ---
+
 ### Time Complexity O(NlognN)

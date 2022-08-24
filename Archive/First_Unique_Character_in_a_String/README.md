@@ -1,5 +1,5 @@
-![](/images/Leetcode_First.png)
----
+## ![](/Archive/images/Leetcode_First.png)
+
 ### And here is the code:
 
 ```c++
@@ -15,10 +15,13 @@ int main(){
         if(M[S[i]] == 1){
             cout<<i<<endl;
             break;
-        } 
+        }
     }
 }
 ```
+
 ---
+
 ### Time Complexity O(N)
+
 > Linear Time

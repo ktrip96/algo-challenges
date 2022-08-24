@@ -1,10 +1,10 @@
-![](/images/Leetcode_Number_Complement.png)
----
+## ![](/Archive/images/Leetcode_Number_Complement.png)
+
 ### And here is the code:
 
 ```c++
 int main(){
-    int N, R = 0, index; 
+    int N, R = 0, index;
     cin>>N;
     bool Arr[32] = {false}, flag = true;
     // we know that the input will be a 32 - bit positive number
@@ -28,6 +28,9 @@ int main(){
 }
 
 ```
+
 ---
-### Time Complexity O(32*3) 
+
+### Time Complexity O(32\*3)
+
 > Constant Time < 0 ms

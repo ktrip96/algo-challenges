@@ -1,5 +1,5 @@
-![](/images/Leetcode_Partition_Labels.png)
----
+## ![](/Archive/images/Leetcode_Partition_Labels.png)
+
 ### And here is the code:
 
 ```c++
@@ -29,5 +29,7 @@ class Solution {
         }
 };
 ```
+
 ---
+
 ### Time Complexity O(NlognN)

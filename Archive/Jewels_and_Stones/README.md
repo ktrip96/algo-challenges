@@ -1,5 +1,5 @@
-![](/images/LeetCode_Jewels.png)
----
+## ![](/Archive/images/LeetCode_Jewels.png)
+
 ### And here is the code:
 
 ```c++
@@ -24,6 +24,9 @@ int main(int argc, char * argv[]){
 }
 
 ```
+
 ---
+
 ### Time Complexity O(J + S)
+
 > Linear Time

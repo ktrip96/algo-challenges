@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day5.png)
----
+## ![](/Archive/images/Leetcode_Day5.png)
+
 ### And here is the code:
 
 ```c++
@@ -32,6 +32,9 @@ int main(){
 
 
 ```
+
 ---
+
 ### Time Complexity O(N) - Linear Time
+
 ---

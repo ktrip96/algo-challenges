@@ -1,5 +1,5 @@
-![](/images/Leetcode_Majority.png)
----
+## ![](/Archive/images/Leetcode_Majority.png)
+
 ### And here is the code:
 
 ```c++
@@ -19,6 +19,9 @@ public:
     }
 };
 ```
+
 ---
+
 ### Time Complexity O(N)
+
 > Linear Time

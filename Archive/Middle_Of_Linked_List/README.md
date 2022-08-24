@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day8.png)
----
+## ![](/Archive/images/Leetcode_Day8.png)
+
 ### And here is the code:
 
 ```c++
@@ -17,9 +17,11 @@ public:
             head = head->next;
         }
         return head;
-        
+
     }
 };
 ```
+
 ---
-### Time Complexity O(N + N/2) = O(N) 
+
+### Time Complexity O(N + N/2) = O(N)

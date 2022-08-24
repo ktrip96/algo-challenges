@@ -1,5 +1,5 @@
-![](/images/Leetcode_Check.png)
----
+## ![](/Archive/images/Leetcode_Check.png)
+
 ### And here is the code:
 
 ```c++
@@ -22,6 +22,9 @@ int main(int argc, char * argv []){
     cout<<flag<<endl;
 }
 ```
+
 ---
+
 ### Time Complexity O(N)
-> Linear Time 
+
+> Linear Time

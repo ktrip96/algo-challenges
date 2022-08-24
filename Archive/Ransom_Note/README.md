@@ -1,10 +1,10 @@
-![](/images/Leetcode_Ransom.png)
----
+## ![](/Archive/images/Leetcode_Ransom.png)
+
 ### And here is the code:
 
 ```c++
 int main(int argc, char * argv[]){
-    string S1, S2;   
+    string S1, S2;
     map<int,int>::iterator itr;
     bool result = true;
     for (int i = 1; i < argc; i++){
@@ -18,7 +18,7 @@ int main(int argc, char * argv[]){
     for (int i = 0; i < S2.size(); i++){
         M2[int(S2[i])]++;
     }
-    for (itr = M1.begin(); itr != M1.end(); ++itr) { 
+    for (itr = M1.begin(); itr != M1.end(); ++itr) {
        if(M1[itr->first]>M2[itr->first]) result = false;
        if(!result) break;
     }
@@ -26,6 +26,9 @@ int main(int argc, char * argv[]){
     return 0;
 }
 ```
+
 ---
-### Time Complexity O(2*S1 + S2) = O(N)
-> Linear Time 
+
+### Time Complexity O(2\*S1 + S2) = O(N)
+
+> Linear Time

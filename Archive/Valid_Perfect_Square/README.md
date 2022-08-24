@@ -1,5 +1,5 @@
-![](/images/Leetcode_Valid.png)
----
+## ![](/Archive/images/Leetcode_Valid.png)
+
 ### And here is the code:
 
 ```c++
@@ -23,6 +23,9 @@ int main(){
     cout<<Perfect<<endl;
 }
 ```
+
 ---
+
 ### Time Complexity O(log(sqrt(N)))
+
 > Logarithmic Time

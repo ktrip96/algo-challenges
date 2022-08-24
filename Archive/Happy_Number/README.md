@@ -1,6 +1,7 @@
-![](/images/Leetcode_Day2.png)
----
+## ![](/Archive/images/Leetcode_Day2.png)
+
 ## And here is the code:
+
 ```C++
 int A[1000], res;
 int sum_square(long long int k){
@@ -19,7 +20,7 @@ bool isHappy(long int n) {
         return isHappy(res);
         }
     }
-  
+
 int main(){
     long long int i;
     cin >> i;
@@ -28,7 +29,7 @@ int main(){
 }
 
 ```
+
 ---
 
 ## Complexity Θ(logn)
-

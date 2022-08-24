@@ -1,5 +1,5 @@
-![](/images/Leetcode_Remove.png)
----
+## ![](/Archive/images/Leetcode_Remove.png)
+
 ### And here is the code:
 
 ```c++
@@ -22,7 +22,7 @@ int main(){
             if(int(s[j]) - 48 > int(s[j+1]) - 48){
                 s.erase(s.begin() + j);
                 break;
-            } 
+            }
         }
         for(int i = 0; i < s.size(); i++){
             if(int(s[i]) - 48 == 0) {
@@ -33,11 +33,14 @@ int main(){
         if(index != -1) s.erase(0,index + 1);
         index = -1;
     }
-    
+
     if(s == "") s = "0";
     cout<<s<<endl;
 }
 ```
+
 ---
-### Time Complexity O(k*s) - where s is the length of the string 
->Linear Time
+
+### Time Complexity O(k\*s) - where s is the length of the string
+
+> Linear Time

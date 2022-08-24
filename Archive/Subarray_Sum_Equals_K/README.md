@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day22.png)
----
+## ![](/Archive/images/Leetcode_Day22.png)
+
 ### And here is the code:
 
 ```c++
@@ -20,5 +20,7 @@ int main(){
     cout << count;
 }
 ```
+
 ---
+
 ### Time Complexity O(N)

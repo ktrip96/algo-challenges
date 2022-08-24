@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day7.png)
----
+## ![](/Archive/images/Leetcode_Day7.png)
+
 ### And here is the code:
 
 ```c++
@@ -18,5 +18,7 @@ public:
 };
 
 ```
+
 ---
-### Time Complexity O(N) 
+
+### Time Complexity O(N)

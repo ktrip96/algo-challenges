@@ -1,5 +1,5 @@
-![](/images/Leetcode_Day6.png)
----
+## ![](/Archive/images/Leetcode_Day6.png)
+
 ### And here is the code:
 
 ```c++
@@ -29,5 +29,7 @@ int main(){
 }
 
 ```
+
 ---
-### Time Complexity O(N*MlogM) - Where M is the length of each string
+
+### Time Complexity O(N\*MlogM) - Where M is the length of each string
