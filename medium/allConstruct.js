@@ -7,7 +7,20 @@
  */
 
 const allConstruct = (target, wordBank, memo = {}) => {
-  if (target === '') return []
+  if (target === '') return [[]]
+
+  let targetWays = []
+
+  for (let n of wordBank) {
+    if (isPrefix(n, target)) {
+      const remainder = removeString(n, target)
+      const result = allConstruct(remainder, wordBank)
+      const addYourSelf = result.map((way) => [...n, way])
+      targetWays.push(...addYourSelf)
+    }
+  }
+
+  return targetWays
 }
 
 function isPrefix(string_a, string_b) {
