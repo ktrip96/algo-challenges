@@ -4,7 +4,7 @@ const fs = require('fs')
 
 try {
   const data = fs.readFileSync(
-    '/home/ktrip96/Algorithms/adventOfCode/dayOne/input.txt',
+    '/home/ktrip96/Algorithms/adventOfCode/day01/input.txt',
     'utf8'
   )
 
