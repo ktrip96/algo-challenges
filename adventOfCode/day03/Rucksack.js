@@ -1,16 +1,5 @@
 // --- Day 3: Rucksack Reorganization ---
 
-// --- Day 2: Rock Paper Scissors ---
-// 1 --- Rock (A)
-// 2 --- Paper (B)
-// 3 --- Scissors (C)
-// Y --- draw
-// X --- loose
-// Z --- win
-// 0 --- Loosing
-// 3 --- Draw
-// 6 --- Winning
-
 const fs = require('fs')
 
 try {
