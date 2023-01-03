@@ -41,10 +41,35 @@ const howSum = (targetSum:number, numbers:number[]) : number[] | null => {
     return tabArray[targetSum]
 }
 
-console.log(howSum(7, [2, 3]))
-console.log(howSum(7, [5, 3, 4, 7]))
-console.log(howSum(7, [2, 4]))
-console.log(howSum(8, [2, 3, 5]))
-console.log(howSum(300, [7, 14]))
+// console.log(howSum(7, [2, 3]))
+// console.log(howSum(7, [5, 3, 4, 7]))
+// console.log(howSum(7, [2, 4]))
+// console.log(howSum(8, [2, 3, 5]))
+// console.log(howSum(300, [7, 14]))
+
+const bestSum = (targetSum:number, numbers:number[]) : number[] | null => {
+    const tabArray : Array<number[]> | null = Array(targetSum + 1).fill(null)
+    tabArray[0] = []
+    for(let i = 0; i < targetSum + 1; i++){
+        if(tabArray[i] !== null){
+            for(let num of numbers){
+                // if your array size is smaller than the target
+                // then replace the target
+                if(tabArray[i + num] === null || (num + i) <= tabArray.length && tabArray[i].length < tabArray[i + num]?.length){
+                   tabArray[i + num] = [...tabArray[i], num]
+                }
+            }
+        }
+    }
+    return tabArray[targetSum]
+}
+
+console.log(bestSum(7, [2,3,4]))
+console.log(bestSum(7, [5, 3, 4]))
+console.log(bestSum(8, [2, 3, 5]))
+console.log(bestSum(8, [1, 4, 5]))
+console.log(bestSum(100, [1, 2, 5, 25]))
+
+
 
 export {} 
