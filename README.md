@@ -69,4 +69,4 @@ mlton main.sml
 
 - [LeetCode](https://leetcode.com/)
 - [Advent of Code](https://adventofcode.com/)
-- [HackerRank](https://scrimba.com/)
+- [Scrimba](https://scrimba.com/)
