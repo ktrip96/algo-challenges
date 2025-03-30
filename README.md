@@ -8,7 +8,8 @@ This repository serves as a collection of coding challenges from various platfor
 
 ### 🛠 Languages Covered
 
-- JavaScript / Typescript
+- JavaScript
+- Typescript
 - C++
 - Standard ML
 - Rust
@@ -36,6 +37,7 @@ This repository serves as a collection of coding challenges from various platfor
 
 - LeetCode
 - adventOfCode
+- Typehero
 - scrimba
 
 ### ▶️ How to Run
@@ -70,3 +72,4 @@ mlton main.sml
 - [LeetCode](https://leetcode.com/)
 - [Advent of Code](https://adventofcode.com/)
 - [Scrimba](https://scrimba.com/)
+- [Typehero](https://typehero.dev/)
