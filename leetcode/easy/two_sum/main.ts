@@ -28,11 +28,6 @@ const twoSumV2 = (input: InputType): number[] => {
 	return []
 }
 
-type InputType = {
-	nums: number[]
-	target: number
-}
-
 const test = <Input, Output>(
 	foo: (input: Input) => Output,
 	testCases: { input: Input; expected: Output }[],
@@ -56,7 +51,23 @@ const test = <Input, Output>(
 	})
 }
 
-test<InputType, number[]>(twoSumV2, [
+type InputType = {
+	nums: number[]
+	target: number
+}
+
+type OutputType = number[]
+
+console.log('*** Testing twoSumV1 ***')
+test<InputType, OutputType>(twoSumV1, [
+	{ input: { nums: [2, 7, 11, 15], target: 9 }, expected: [0, 1] },
+	{ input: { nums: [3, 2, 4], target: 6 }, expected: [1, 2] },
+	{ input: { nums: [3, 3], target: 6 }, expected: [0, 1] },
+])
+
+console.log('*** Testing twoSumV2 ***')
+
+test<InputType, OutputType>(twoSumV2, [
 	{ input: { nums: [2, 7, 11, 15], target: 9 }, expected: [0, 1] },
 	{ input: { nums: [3, 2, 4], target: 6 }, expected: [1, 2] },
 	{ input: { nums: [3, 3], target: 6 }, expected: [0, 1] },
